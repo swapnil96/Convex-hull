@@ -15,4 +15,5 @@ ax.set_xlabel('X Label')
 ax.set_ylabel('Y Label')
 ax.set_zlabel('Z Label')
 
+plt.savefig('image.jpg', bbox_inches='tight')
 plt.show()
