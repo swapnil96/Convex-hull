@@ -192,11 +192,11 @@ def distLine(pointA, pointB, pointX): #Calculate the distance of a point from a 
 	vec2 = pointX - pointB
 	vec3 = pointB - pointA
 	vec4 = cross(vec1, vec2)
-	if vec2.length() == 0:
+	if vec3.length() == 0:
 		return None
 
 	else:
-		return vec4.length()/vec2.length()
+		return vec4.length()/vec3.length()
 
 def max_dist_line_point(pointA, pointB): #Calculate the maximum distant point from a line for initial simplex
 	maxDist = 0;
