@@ -11,7 +11,11 @@ source Wikipedia
 
 There is a method named [Quickhull](https://en.wikipedia.org/wiki/Quickhull). The steps are mentioned in the wikipedia page.
 
-I have used this [blog](http://thomasdiewald.com/blog/?p=1888) to understand the algorithm and implemented it myself.
+<del>I have used this [blog](http://thomasdiewald.com/blog/?p=1888) to understand the algorithm and implemented it myself.</del>
+
+Seems like the above link was dead, luckily found the archieved version of that [here](https://web.archive.org/web/20170905032455/http://thomasdiewald.com/blog/?p=1888)
+
+Also have added the pdf version of that blog, just in case it disappears again !!
 
 # Algorithm
 
