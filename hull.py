@@ -371,7 +371,7 @@ try: # Open the output file
 	data1 = open("data/"+sys.argv[1].split('.')[0]+".out", "w")
 	data1.write(str(len(final_vertices)) + '\n')
 	for point in final_vertices:
-		data1.write(str(point.x) + str(point.x) + str(point.x) + '\n')
+		data1.write(str(point.x) +' '+ str(point.x) +' '+ str(point.x) + '\n')
 
 finally:
 	data1.close()	
